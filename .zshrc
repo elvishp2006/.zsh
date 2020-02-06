@@ -5,7 +5,7 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 source $HOME/.zsh/key-bindings.zsh
 
-#Plugins Init
+# Plugins Init
 autoload -Uz compinit
 
 # Cache completion if nothing changed - faster startup time
