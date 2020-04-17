@@ -20,6 +20,6 @@ fi
 zmodload -i zsh/complist
 
 # Aliases
-source /home/elvis/.zsh/aliases.zsh
+source $HOME/.zsh/aliases.zsh
 
 eval "$(starship init zsh)"
