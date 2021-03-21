@@ -5,6 +5,7 @@
   * `brew install starship`
 * zsh;
   * `brew install zsh`
+* Instalar fonte [Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases);
 
 ## Instalação
 * `cd ~ && git clone --recurse-submodules git@github.com:elvishp2006/.zsh.git`
