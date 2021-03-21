@@ -1,12 +1,12 @@
 # .zsh
 > Minhas configurações do zsh.
-# Pré requisitos
+## Pré requisitos
 * starship;
   * `brew install starship`
 * zsh;
   * `brew install zsh`
 
-# Instalação
+## Instalação
 * `cd ~ && git clone --recurse-submodules git@github.com:elvishp2006/.zsh.git`
 * Colocar o seguinte conteúdo em `~/.zshrc`:
 ```bash

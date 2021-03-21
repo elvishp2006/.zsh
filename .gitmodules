@@ -2,7 +2,6 @@
 	path = fast-syntax-highlighting
 	url = https://github.com/zdharma/fast-syntax-highlighting.git
 
-
 [submodule "ZSH Autosuggestions"]
 	path = zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git 
