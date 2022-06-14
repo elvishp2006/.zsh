@@ -8,6 +8,9 @@ source $HOME/.zsh/key-bindings.zsh
 # Plugins Init
 autoload -Uz compinit
 
+# Brew Completions
+FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
 # Cache completion if nothing changed - faster startup time
 typeset -i updated_at=$(date +'%j' -r ~/.zcompdump 2>/dev/null || stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)
 if [ $(date +'%j') != $updated_at ]; then
