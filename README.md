@@ -20,3 +20,5 @@ precmd() {
   echo -ne "\e]1;${PWD##*/}\a"
 }
 ```
+## Atualização dos Plugins
+* `git submodule update --remote`
