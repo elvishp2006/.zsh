@@ -20,5 +20,28 @@ precmd() {
   echo -ne "\e]1;${PWD##*/}\a"
 }
 ```
+
 ## Atualização dos Plugins
 * `git submodule update --remote`
+
+## Ferramentas de Produtividade
+
+### Instalação
+```bash
+brew install fzf zoxide atuin bat fd tree ripgrep
+$(brew --prefix)/opt/fzf/install --key-bindings --completion --no-update-rc
+atuin init zsh
+atuin import auto
+```
+
+### Atalhos
+- `Ctrl+r`: Busca no histórico (atuin)
+- `Alt+r`: Busca no histórico alternativa (fzf)
+- `Ctrl+t`: Busca de arquivos (fzf)
+- `Alt+c`: Navegação rápida de diretórios (fzf)
+- `z <padrão>`: Pular para diretório frequente (zoxide)
+- `zi`: Seleção interativa de diretórios (zoxide + fzf)
+
+### Comandos
+- `zhist`: Estatísticas do histórico
+- `\cd`: cd nativo (cd agora é alias para z)
