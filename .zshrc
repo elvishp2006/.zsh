@@ -9,6 +9,7 @@ source $HOME/.zsh/key-bindings.zsh
 source $HOME/.zsh/zoxide.zsh
 source $HOME/.zsh/fzf.zsh
 source $HOME/.zsh/atuin.zsh
+source $HOME/.zsh/pet.zsh
 
 # Plugins Init
 autoload -Uz compinit
