@@ -5,6 +5,7 @@ if command -v pet &> /dev/null; then
     BUFFER=$(pet search --query "$LBUFFER")
     CURSOR=$#BUFFER
     zle redisplay
+    zle accept-line
   }
   zle -N pet-select
   stty -ixon
