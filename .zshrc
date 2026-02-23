@@ -1,5 +1,5 @@
 # Plugins
-source $HOME/.zsh/fast-syntax-highlighting/F-Sy-H.plugin.zsh
+source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $HOME/.zsh/completion.zsh
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
