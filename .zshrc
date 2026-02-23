@@ -5,6 +5,11 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 source $HOME/.zsh/key-bindings.zsh
 
+# Ferramentas de produtividade
+source $HOME/.zsh/zoxide.zsh
+source $HOME/.zsh/fzf.zsh
+source $HOME/.zsh/atuin.zsh
+
 # Plugins Init
 autoload -Uz compinit
 
