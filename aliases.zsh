@@ -1,4 +1,7 @@
-alias vim='nvim'
+alias vim='hx'
+alias vi='hx'
+export EDITOR='hx'
+export VISUAL='hx'
 alias ls='ls -G'                              # colorize `ls` output
 alias zshreload='source ~/.zshrc'             # reload ZSH
 alias shtop='sudo htop'                       # run `htop` with root rights

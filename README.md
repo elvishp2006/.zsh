@@ -5,6 +5,8 @@
   * `brew install starship`
 * zsh;
   * `brew install zsh`
+* helix;
+  * `brew install helix`
 * Instalar fonte [FiraCode](https://github.com/tonsky/FiraCode);
 
 ## Instalação
@@ -26,6 +28,7 @@ precmd() {
 
 ## Ferramentas de Produtividade
 
+- [helix](https://helix-editor.com): Editor de texto modal (substitui vim/vi, `$EDITOR`)
 - [fzf](https://github.com/junegunn/fzf): Fuzzy finder para busca interativa
 - [zoxide](https://github.com/ajeetdsouza/zoxide): Navegação inteligente de diretórios
 - [atuin](https://github.com/atuinsh/atuin): Histórico avançado de comandos
@@ -34,7 +37,7 @@ precmd() {
 ### Instalação
 ```bash
 brew tap knqyf263/pet
-brew install fzf zoxide atuin bat fd tree ripgrep knqyf263/pet/pet
+brew install fzf zoxide atuin bat fd tree ripgrep knqyf263/pet/pet helix
 $(brew --prefix)/opt/fzf/install --key-bindings --completion --no-update-rc
 atuin init zsh
 atuin import auto
